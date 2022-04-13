@@ -1,0 +1,3 @@
+Hello Node.js
+็Hello World, welcome to read & write for NodeJS
+Updated on Wed Apr 13 2022 22:22:33 GMT+0700 (Indochina Time)
