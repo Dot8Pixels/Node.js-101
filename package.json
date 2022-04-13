@@ -1,0 +1,19 @@
+{
+  "name": "node.js-101",
+  "version": "1.0.0",
+  "description": "nodejs for beginner",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dot8Pixels/Node.js-101.git"
+  },
+  "author": "Napat Sri-ampun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dot8Pixels/Node.js-101/issues"
+  },
+  "homepage": "https://github.com/Dot8Pixels/Node.js-101#readme"
+}
