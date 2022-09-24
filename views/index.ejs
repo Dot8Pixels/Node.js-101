@@ -8,21 +8,27 @@
 </head>
 <body>
     <h1>Hello  EJS Template Engine</h1>
-    <p><b>Name: </b><%= name %><p>
-    <p><b>Age: </b><%= age %> years<p>
-    <%- address %>
+    <p><%= products %></p>
     <hr>
-
-    <% if (age >= 18) {%>
-        <h1> Passed </h1>
-    <% } else {%>
-        <h1> Failed</h1>
+    <p><%= products[0] %></p>
+    <p><%= products[1] %></p>
+    <p><%= products[2] %></p>
+    <p><%= products[3] %></p>
+    <hr>
+    <% for(i=0; i<products.length; i++){%>
+        <p><%= products[i] %></p>
     <% } %>
     <hr>
-
-    <% for(i=1; i<=10; i++) {%>
-        <p>No: <%= i %></p>
-    <% } %>
-
+    <ol>
+        <% for(i=0; i<products.length; i++){%>
+            <li><%= products[i] %></li>
+        <% } %>
+    </ol>
+    <hr>
+    <ol>
+        <% for(index in products){%>
+            <li><%= products[index] %></li>
+        <% } %>
+    </ol>
 </body>
 </html>
