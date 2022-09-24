@@ -11,5 +11,12 @@
     <p><b>Name: </b><%= name %><p>
     <p><b>Age: </b><%= age %> years<p>
     <%- address %>
+    <hr>
+
+    <% if (age >= 18) {%>
+        <h1> Passed </h1>
+    <% } else {%>
+        <h1> Failed</h1>
+    <% } %>
 </body>
 </html>
